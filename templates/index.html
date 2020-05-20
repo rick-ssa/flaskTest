@@ -6,6 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>hello, {{name}}!</h1>
+    <ul>
+        {% for name in names %}
+            <li>{{name}}</li>
+        {% endfor %}
+    </ul>
 </body>
 </html>
